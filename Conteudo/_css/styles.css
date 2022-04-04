@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 11px;
+    border: 2px solid #cecece;
+}
+
+.cabecalho {
+    background-color: #03bed6;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.cabecalho p {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape p {
+    font-size: 14px;
+    padding: 11px;
+    text-align: center;
+    background-color: #cecece;
+}
+
+.topnav {
+    background-color: #333333;
+    padding: 10px;      
+}
+
+.topnav li {
+    display: inline;
+ 
+}
+
+.topnav li#sobre {
+    float: right;
+    
+}
+
+.topnav a{
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(255, 187, 0);
+    color: #000000;
+    padding: 6px;
+}
+
+.conteudo h1{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+.conteudo img{
+    display: block;
+    width: 150px;
+    margin: 0px auto 0px auto;
+}
+
+.conteudo h2{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.conteudo p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+
+.detalhes {
+    margin: 0px auto 0px auto;
+    
+}
+
+.detalhes caption {
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+.detalhes td {
+    font-size: 14px;
+    border: 1px solid #404040;
+    padding: 10px;
+}
+
+.detalhes .ce {
+    background-color: #96f1fd;
+    color: #000000;
+
+}
+
+.detalhes .cd {
+    background-color: #c2f8ff;
+
+}
